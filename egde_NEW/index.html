@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edge — Your Full-Stack AI Team</title>
+    <link rel="icon" href="../Edge-Frontend/public/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <header id="top" class="navbar">
+      <div class="container">
+        <h1 class="logo">Edge</h1>
+        <nav class="nav-links">
+          <a href="#how-it-works" class="nav-link">How&nbsp;it&nbsp;Works</a>
+          <a href="#ai-team" class="nav-link">AI&nbsp;Team</a>
+          <a href="#join" class="nav-link">Join&nbsp;Me</a>
+        </nav>
+        <button id="theme-toggle" aria-label="Toggle theme">🌓</button>
+      </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero">
+      <div class="container hero-content">
+        <h2 class="headline">
+          <span class="gradient-text">Edge</span>&nbsp;— Your&nbsp;Full-Stack&nbsp;AI&nbsp;Team
+        </h2>
+        <p class="subheadline">
+          Edge is the home of your very own autonomous full-stack startup team powered by AI. From idea to live product, Edge automates the entire creation process — not just code, but marketing, outreach, analytics, and more.
+        </p>
+        <div class="cta-buttons">
+          <button class="btn primary" data-scroll-target="#how-it-works">
+            Learn&nbsp;More
+          </button>
+          <button class="btn secondary" data-scroll-target="#join">
+            Get&nbsp;Started
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS SECTION -->
+    <section id="how-it-works" class="section">
+      <div class="container">
+        <h3 class="section-title">How&nbsp;It&nbsp;Works</h3>
+        <div class="steps-grid">
+          <div class="step">
+            <span class="step-number">1</span>
+            <h4>Connect your team</h4>
+            <p>Connect your team to Edge and start brainstorming your company.</p>
+          </div>
+          <div class="step">
+            <span class="step-number">2</span>
+            <h4>Build your MVP</h4>
+            <p>
+              Once you and your agents are set up, you can start building your MVP.
+            </p>
+          </div>
+          <div class="step">
+            <span class="step-number">3</span>
+            <h4>Deploy&nbsp;to&nbsp;Edge</h4>
+            <p>
+              Ship your applications with a single click and enjoy.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AI TEAM SECTION -->
+    <section id="ai-team" class="section alt-bg">
+      <div class="container">
+        <h3 class="section-title">Meet&nbsp;Your&nbsp;AI&nbsp;Team</h3>
+        <div class="team-grid">
+          <article class="team-card" data-detail="ai-dev">
+            <h4 class="card-title">Alex - Your Developer</h4>
+            <p class="card-desc">Writes code, tests and deploys for you.</p>
+            <button class="btn tertiary">More&nbsp;Info</button>
+          </article>
+          <article class="team-card" data-detail="ai-analyst">
+            <h4 class="card-title">Hannah - Your Marketer</h4>
+            <p class="card-desc">Manages your marketing and outreach.</p>
+            <button class="btn tertiary">More&nbsp;Info</button>
+          </article>
+          <article class="team-card" data-detail="ai-designer">
+            <h4 class="card-title">Chris - Your Business Analyst</h4>
+            <p class="card-desc">
+              Analyzes your business and helps you make thoughtful decisions.
+            </p>
+            <button class="btn tertiary">More&nbsp;Info</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- JOIN SECTION -->
+    <section id="join" class="section">
+      <div class="container join-block">
+        <h3 class="section-title">Join&nbsp;the&nbsp;Mission</h3>
+        <p>
+          Ready to push boundaries? Become part of a community that is building
+          the future on the edge.
+        </p>
+        <form id="join-form" class="join-form">
+          <input
+            type="email"
+            name="email"
+            id="email-input"
+            placeholder="Your email"
+            required
+          />
+          <textarea
+            name="message"
+            id="message-input"
+            placeholder="Your message"
+            rows="4"
+            required
+          ></textarea>
+          <button class="btn primary" type="submit">Send&nbsp;Email</button>
+        </form>
+        <p class="form-message" id="form-message" hidden></p>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container footer-content">
+        <p>© <span id="year"></span> Edge&nbsp;AI. All rights reserved.</p>
+        <nav class="footer-links">
+          <a href="#top" class="footer-link">Back&nbsp;to&nbsp;Top</a>
+          <a href="mailto:calebphillips.ai@gmail.com" class="footer-link">Contact</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html> 
